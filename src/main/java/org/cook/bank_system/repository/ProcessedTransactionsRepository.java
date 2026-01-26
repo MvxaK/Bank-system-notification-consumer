@@ -1,6 +1,6 @@
-package org.cook.bank_system_consumer.repository;
+package org.cook.bank_system.repository;
 
-import org.cook.bank_system_consumer.entity.ProcessedTransactionEntity;
+import org.cook.bank_system.entity.ProcessedTransactionEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

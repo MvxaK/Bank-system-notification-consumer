@@ -1,10 +1,10 @@
-package org.cook.bank_system_consumer.service;
+package org.cook.bank_system.service;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.cook.bank_system_consumer.entity.ProcessedTransactionEntity;
-import org.cook.bank_system_consumer.model.TransactionEvent;
-import org.cook.bank_system_consumer.repository.ProcessedTransactionsRepository;
+import org.cook.bank_system.entity.ProcessedTransactionEntity;
+import org.cook.bank_system.model.TransactionEvent;
+import org.cook.bank_system.repository.ProcessedTransactionsRepository;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

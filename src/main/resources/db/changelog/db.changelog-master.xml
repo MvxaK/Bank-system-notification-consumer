@@ -4,7 +4,6 @@
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                    https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
 
-    <changeSet id="0" author="admin">
+    <include file="tables/24-01-2026-16-08-00-create-processed-transactions-table.xml" relativeToChangelogFile="true" />
 
-    </changeSet>
 </databaseChangeLog>
